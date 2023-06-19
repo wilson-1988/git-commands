@@ -1,0 +1,228 @@
+    1  git --version   -  view git version installed
+    2  ls  - list all files in current working directory
+    3  git status  - check git status 
+    4  mkdir my-cool-website  - created new directory with command mkdir
+    5  cd my-cool-website/ - use cd to move to specific folder
+    6  git init  - initialise git in current directory
+    7  ls -a - list files with details
+    8    git config --global user.name "name"   - specify a name for git used in local repo
+   10  git config --global user.email "mailid"  - specify a mail for git used in local repo
+   11  new-item test.txt  - create new item
+   14  help  - help command 
+   28  git status
+   29  git add .   - add all files to local git 
+   30  git init
+
+   32  git commit  -m "My first commit"  - commit the git files with message 
+   33  git status
+   34  git log  - to view all the logs
+   35  git log --patch
+   36  touch index.html
+   37  ls
+   38  git status
+   39  git add .
+   40  git commit -m " Second commit"
+   41  exit
+   42  pwd
+   43  cd ..
+   44  pwd
+   45  cd c:/
+   46  ls
+   47  cd Terraform/
+   48  ls
+   49  cd test1/
+   50  ls
+   51  cd GIT\ Folder/
+   52  ls
+   53  mkdir Git practice
+   54  ls
+   55  cd Git/
+   56  mkdir assignment1
+   57  ls
+   58  touch Code.txt
+   59  touch Log.txt Output.txt
+   60  ls
+   61  rm Code.txt Log.txt Output.txt
+   62  ls
+   63  cd assignment1/
+   64  touch Code.txt Log.txt Output.txt
+   65  ls
+   66  git init Code.txt Output.txt
+   67  git init
+   68  git status
+   69  git add Code.txt Output.txt
+   70  git commit -m "First Commit"
+   71  git push
+   72  git remote add origin https://github.com/
+   73  git push
+   74  git status
+   75  git push -u origin master
+   76  cd..
+   77  ls
+   78  cd..
+   79  ls
+   80  cd
+   81  ls
+   82  cd c:
+   83  cd Terraform/test1/
+   84  ls
+   85  cd GIT\ Folder/
+   86  ls
+   87  cd Git/
+   88  mkdir assignment2
+   89  cd assignment2
+   90  ls
+   91  touch feature1.txt feature2.txt
+   92  ls
+   93  git branch develop feature1 feature2
+   94  git branch develop
+   95  git init
+   96  git branch develop
+   97  git branch list
+   98  git add .
+   99  git commit -m " First commit"
+  100  git remote add origin https://github.com/
+  101  git push
+  102  git push -u origin master
+  103  git branch develop
+  104  git branch feature1 feature2
+  105  git branch feature1
+  106  git branch feature2
+  107  git branch list
+  108  ls
+  109  git status
+  110  git branch
+  111  git branch -D list
+  112  git branch
+  113  git checkout develop
+  114  git branch
+  115  touch develop.txt
+  116  git stash
+  117  ls
+  118  git checkout feature1
+  119  git branch
+  120  touch new.txt
+  121  git add .
+  122  git commit -m "Feature1 file commit"
+  123  git checkout develop
+  124  git unstash
+  125  git stash
+  126  ls
+  127  git branch
+  128  git stash apply
+  129  git stash pop
+  130  git branch
+  131  tocuh develop.txt
+  132  touch develop.txt
+  133  git stash develop.txt
+  134  git stash pop
+  135  git stash
+  136  git stash pop
+  137  ls
+  138  git add -a
+  139  git add
+  140  git stash apply
+  141  ls
+  142  git status
+  143  git log
+  144  git stash pull
+  145  git stash pop
+  146  git commit -m "second commit"
+  147  git add .
+  148  git commit -m "second commit"
+  149  git push -u remote master
+  150  git push
+  151  git push -u origin
+  152  git push -u origin .
+  153  git push -u origin.
+  154  git push -u origin master
+  155  git push -u origin develop
+  156  touch dev.txt
+  157  ls
+  158  git stash dev.txt
+  159  git stash
+  160  git sta
+  161  git stash ?
+  162  git stash -help
+  163  git checkout master
+  164  ls
+  165  git stash apply
+  166  git stash list
+  167  git checkout develop
+  168  ls
+  169  git stash
+  170  git stash list
+  171  git stash apply
+  172  git log
+  173  git clear
+  174  git clean
+  175  ls
+  176  git branch -r develop
+  177  git branch -help
+  178  git branch -D develop
+  179  git branch -D develop -f
+  180  git checkout master
+  181  git branch -D develop -f
+  182  git branch -D feature1
+  183  git branch -D feature2
+  184  ls
+  185  rm dev.txt
+  186  ls
+  187  git status
+  188  git branch
+  189  git init
+  190  git branch development
+  191  git branch feature11
+  192  git branch feature12
+  193  git checkout development
+  194  touch develop.txt
+  195  git stash
+  196  ls
+  197  git checkout feature11
+  198  git stash
+  199  git checkout master
+  200  git stash
+  201  ls
+  202  git stash list
+  203  git status
+  204  git add .
+  205  git status
+  206  git stash
+  207  git stash list
+  208  ls
+  209  exit
+  210  ls
+  211  pwd
+  212  cd c:
+  213  ls
+  214  cd Terraform/test1/GIT\ Folder/
+  215  ls
+  216  cd Git/
+  217  ls
+  218  cd assignment3
+  219  git branch
+  220  ls
+  221  git checkout develop
+  222  touch dev.txt
+  223  git checkout f1
+  224  touch f1.txt
+  225  git checkout f2
+  226  touch f2.txt
+  227  ls
+  228  git init
+  229  git add .
+  230  git commit -m "First Commit"
+  231  git remote add origin https://github.com/
+  232  git push remote --all
+  233  git push -all
+  234  git push --all
+  235  git brach
+  236  git branch
+  237  git branch -D f2
+  238  git branch -D f2 -f
+  239  git checkout master
+  240  git branch -D f2
+  241  git push --all
+  242  git branch -r
+  243  git push origin --delete f2
+  244  history
